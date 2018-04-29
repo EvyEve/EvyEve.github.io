@@ -1,6 +1,8 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    padding: 0% 26%;
+    position:relative;
+    margin: 0px 0px;
+    display: block;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -20,11 +22,13 @@ li a:hover {
     text-decoration: underline;
 }
 h1 {
+
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h2 {
-    font-size: 3em;
+    margin-top:-4px;
+    font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
@@ -32,16 +36,66 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+h3{
+  text-decoration: underline;
+  font-size: 1.5em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  margin-bottom: 1em;
+}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
+}
+table{
+  margin-top: -0.5em;
+  width:128%;
+
+}
+td{
+  padding-bottom: 1.6px;
+  style="width:28%"
+}
+#line1{
+  margin-top: -1.5em;
+  background-color:#999;
+  height:3px;
+}
+#line2{
+  margin-top: -1.5em;
+  height:1px;
+  background-color:#999;
+}
+#noBullets li{
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  display: block;
+  float: left;
+}
+#bullets ul{
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  display: inline-block;
+}
+#head{
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: #333;
+
+}
+#sub{
+  font-family:'Tahoma', 'Arial', 'Helvetica';
+  font-size: 1em;
+  color: #333;
+}
+#list table td{
+  display: list-item;
+
 }
